@@ -1,3 +1,4 @@
+# Función para realizar multiplicaciones
 def multiplica(x, y):
     return x * y
 
