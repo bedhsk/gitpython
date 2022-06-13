@@ -2,6 +2,7 @@
 def multiplica(x, y):
     return x * y
 
+# Función principal del programa
 def run():
     print("\tMULTIPLICACIÓN DE DOS NÚMEROS")
     n1 = int(input("Ingresa el primer número a multiplicar: "))
