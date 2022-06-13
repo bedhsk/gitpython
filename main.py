@@ -1,13 +1,12 @@
-# Función para realizar multiplicaciones
-def multiplica(x, y):
-    return x * y
+# Función para realizar potencia de un número
+def potencia(x):
+    return x * x
 
 # Función principal del programa
 def run():
-    print("\tMULTIPLICACIÓN DE DOS NÚMEROS")
-    n1 = int(input("Ingresa el primer número a multiplicar: "))
-    n2 = int(input("Ingresa el segundo número a multiplicar: "))
-    print("El resultado de la multiplicación es: " + str(multiplica(n1, n2)))
+    print("\tPOTENCIA DE UN NÚMERO")
+    n1 = int(input("Ingresa el número a potenciar: "))
+    print("El resultado de la potenciación  es: " + str(potencia(n1)))
 
 if __name__ == "__main__":
     run()
