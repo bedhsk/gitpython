@@ -1,3 +1,7 @@
+# Agregando una nueva funcionalidad
+def potencia3(x):
+    return x * x * x
+
 # Función para realizar potencia de un número
 def potencia(x):
     return x * x
